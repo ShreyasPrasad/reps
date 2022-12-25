@@ -1,0 +1,14 @@
+version: "3"
+services:
+  postgres:
+    build: ./db
+    ports:
+      - 5432
+  server:
+    build: ./server
+    ports:
+      - 8081:8081
+    depends_on:
+      - postgres
+    links:
+      - postgres
