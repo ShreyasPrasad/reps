@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"os"
 
-	_ "github.com/lib/pq"
 	routes "github.com/shreyasprasad/reps/app/api/routes"
 	shared "github.com/shreyasprasad/reps/app/api/shared"
 )
