@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	routes "github.com/shreyasprasad/reps/app/api/routes"
-	shared "github.com/shreyasprasad/reps/app/api/shared"
+	routes "github.com/shreyasprasad/reps/app/server/routes"
+	shared "github.com/shreyasprasad/reps/app/server/shared"
 )
 
 func main() {
